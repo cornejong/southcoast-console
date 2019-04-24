@@ -1,0 +1,24 @@
+{
+  "name": "southcoast/console",
+  "description": "Toolkit for working in comandline and terminal context with php",
+  "type": "librabry",
+  "authors": [
+    {
+      "name": "Corné de Jong | SouthCoast",
+      "email": "corne@southcoast.tech",
+      "homepage": "http://southcoast.tech",
+      "role": "Developer & Engineer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "southcoast/helpers": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "SouthCoast\\Console\\": "src/Console/"
+    }
+  },
+  "minimum-stability": "stable",
+  "license": "MIT"
+}
